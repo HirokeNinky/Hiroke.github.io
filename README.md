@@ -45,7 +45,7 @@
                             list commands core
                         </td>
                         <td>
-                            z!help
+                            &,help
                         </td>
                     </tr>
                     <tr>
@@ -56,7 +56,7 @@
                             list commands moderation
                         </td>
                         <td>
-                            z!help
+                            &,help
                         </td>
                     </tr>
                     <tr>
@@ -65,7 +65,7 @@
                             list commands music
                         </td>
                         <td>
-                           z!help</td>
+                           &,help</td>
                     </tr>
                     <tr>
                         <td>economy</td>
@@ -73,7 +73,7 @@
                             list commands economy
                         </td>
                         <td>
-                            z!help
+                            &,help
                         </td>
                     </tr>
                     <tr>
@@ -82,7 +82,7 @@
                         </td>
                         <td>
                             list commands utility                       </td>
-                        <td>z!help </td>
+                        <td>&,help </td>
                     </tr>
                     <tr>
                         <td>                      
