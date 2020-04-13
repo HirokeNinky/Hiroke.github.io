@@ -1,4 +1,4 @@
-# GorutoZ
+# Goruto Uzumaki
 
 <a href="https://top.gg/bot/584691692897042442" >
   <img src="https://top.gg/api/widget/status/584691692897042442.svg" alt="Goruto" />
@@ -17,6 +17,7 @@
 </a>
 
 
+Goridus Development
 
 
 
