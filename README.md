@@ -1,19 +1,19 @@
-# Goruto Uzumaki
+# Hiroke
 
 <a href="https://top.gg/bot/584691692897042442" >
-  <img src="https://top.gg/api/widget/status/584691692897042442.svg" alt="Goruto" />
+  <img src="https://top.gg/api/widget/status/584691692897042442.svg" alt="Hiroke" />
 </a>
 
 <a href="https://top.gg/bot/584691692897042442" >
-  <img src="https://top.gg/api/widget/upvotes/584691692897042442.svg" alt="Goruto" />
+  <img src="https://top.gg/api/widget/upvotes/584691692897042442.svg" alt="Hiroke" />
 </a>
 
 <a href="https://top.gg/bot/584691692897042442" >
-  <img src="https://top.gg/api/widget/lib/584691692897042442.svg" alt="Goruto" />
+  <img src="https://top.gg/api/widget/lib/584691692897042442.svg" alt="Hiroke" />
 </a>
 
 <a href="https://top.gg/bot/584691692897042442" >
-  <img src="https://top.gg/api/widget/owner/584691692897042442.svg" alt="Goruto" />
+  <img src="https://top.gg/api/widget/owner/584691692897042442.svg" alt="Hiroke" />
 </a>
 
 
