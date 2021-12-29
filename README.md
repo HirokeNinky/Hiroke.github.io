@@ -17,7 +17,7 @@
 </a>
 
 
-Goridus Development
+Ninky Development
 
 
 
@@ -34,8 +34,8 @@ Goridus Development
 
 <table id="komuttlarr">
                     <tbody><tr class="header">
-                        <th style="width:15%;">list</th>
-                        <th style="width:60%;">tags</th>
+                        <th style="width:15%;">category</th>
+                        <th style="width:60%;">list</th>
                         <th style="width:25%;">commands</th>
                     </tr>
                     <tr>
@@ -96,7 +96,7 @@ Goridus Development
 • volume
                     </tr>
                     <tr>
-                        <td>economy</td>
+                        <td>support</td>
                         <td>
                             list commands support
                         </td>
