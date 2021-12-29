@@ -46,7 +46,20 @@ Goridus Development
                             list commands core
                         </td>
                         <td>
-                            &,help
+                           • about
+• bot
+• help
+• imdb
+• say
+• twitter
+• leaderboard
+• ping
+• lisence 
+• membercount
+• rolelist 
+• servericon
+• serverinfo
+• userinfo
                         </td>
                     </tr>
                     <tr>
@@ -57,7 +70,15 @@ Goridus Development
                             list commands moderation
                         </td>
                         <td>
-                            &,help
+                           • addemoji
+• addroles
+• ban
+• kick 
+• slowmode
+• mute
+• embed
+• unmute
+• nuke
                         </td>
                     </tr>
                     <tr>
@@ -66,27 +87,23 @@ Goridus Development
                             list commands music
                         </td>
                         <td>
-                           &,help</td>
+                           • play
+• skip 
+• stop
+• queue
+• loop
+• drop
+• volume
                     </tr>
                     <tr>
                         <td>economy</td>
                         <td>
-                            list commands economy
+                            list commands support
                         </td>
                         <td>
-                            &,help
+                            • bugreport
+• link
                         </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            utility
-                        </td>
-                        <td>
-                            list commands utility                       </td>
-                        <td>&,help </td>
-                    </tr>
-                    <tr>
-                        <td>                      
                     </tr>
                 </tbody></table>
                 
