@@ -4,61 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Website Keren</title>
+    <title>Profil Keren</title>
     <link rel="stylesheet" href="css/stylesss.css">
 </head>
 <body>
-
-    <header>
-        <h1>Selamat Datang di Website Keren!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Tentang Kami</a></li>
-                <li><a href="#services">Layanan</a></li>
-                <li><a href="#contact">Kontak</a></li>
+    <div class="profile-page">
+        <aside class="sidebar">
+            <div class="profile-photo">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <h2>Mario Mendez</h2>
+            <p>Senior Architect ★★★★★</p>
+            <button class="follow-btn">Follow</button>
+            <ul class="follower-info">
+                <li>Followers <span>320</span></li>
+                <li>Following <span>147</span></li>
             </ul>
-        </nav>
-    </header>
+            <ul class="performance-info">
+                <li>Performance: 56</li>
+                <li>Reviews: 42</li>
+            </ul>
+            <ul class="projects">
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </aside>
 
-    <section id="home">
-        <h2>Ini Halaman Utama</h2>
-        <p>Kami menyediakan layanan terbaik untuk Anda.</p>
-        <button id="cta-button">Pelajari Lebih Lanjut</button>
-    </section>
-
-    <section id="about">
-        <h2>Tentang Kami</h2>
-        <p>Kami adalah perusahaan yang berfokus pada inovasi dan solusi teknologi terkini.</p>
-    </section>
-
-    <section id="services">
-        <h2>Layanan Kami</h2>
-        <div class="service">
-            <h3>Layanan 1</h3>
-            <p>Deskripsi Layanan 1</p>
-        </div>
-        <div class="service">
-            <h3>Layanan 2</h3>
-            <p>Deskripsi Layanan 2</p>
-        </div>
-        <div class="service">
-            <h3>Layanan 3</h3>
-            <p>Deskripsi Layanan 3</p>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <h2>Kontak Kami</h2>
-        <p>Email: info@websitekeren.com</p>
-        <p>Telepon: +62 812 3456 7890</p>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-    </footer>
-
-    <script src="js/script.js"></script>
+        <main class="main-content">
+            <section class="profile-header">
+                <img src="architecture.jpg" alt="Header Image">
+            </section>
+            <section class="profile-info">
+                <nav class="tabs">
+                    <ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Feed</a></li>
+                        <li><a href="#">Agenda</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </nav>
+                <div class="feed">
+                    <p>Update portofolio terbaru dari proyek #architecture.</p>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
