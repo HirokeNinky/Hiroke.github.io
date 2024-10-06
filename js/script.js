@@ -1,5 +1,9 @@
-document.querySelector('.follow-btn').addEventListener('click', function() {
-    this.innerText = "Following";
-    this.style.backgroundColor = "#2ecc71";
-    alert('You are now following Mario Mendez!');
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
