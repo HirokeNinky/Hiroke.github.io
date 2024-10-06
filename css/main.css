@@ -1000,3 +1000,61 @@ ul.social-icons {
     text-align: center;
 }
 }
+/* Social Buttons Container */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Base Style for All Social Buttons */
+.social-btn {
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Individual Social Media Colors */
+.instagram {
+    background: #322f30;;
+}
+
+.facebook {
+    background-color: #322f30;;
+}
+
+.twitter {
+    background-color: #322f30;;
+}
+
+.linkedin {
+    background-color: #322f30;
+}
+.people {
+    background-color: #322f30;
+}
+.discord {
+    background-color: #322f30;
+}
+
+/* Icon Style */
+.social-btn i {
+    font-size: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-btn:hover i {
+    transform: scale(1.2);
+}
