@@ -19,10 +19,23 @@ body {
 }
 
 header {
-    background: #35424a;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
     color: #ffffff;
     padding: 50px 0;
     text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
 }
 
 nav {
@@ -44,6 +57,11 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe600;
 }
 
 section {
@@ -51,7 +69,13 @@ section {
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
 .skills-list {
@@ -61,10 +85,15 @@ section {
 }
 
 .skill {
-    background: #35424a;
+    background: #4a90e2;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
 }
 
 footer {
