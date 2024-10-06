@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Profil Keren</title>
     <link rel="stylesheet" href="css/stylesss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="profile-page">
@@ -14,21 +15,31 @@
                 <img src="profile.jpg" alt="Profile Picture">
             </div>
             <h2>Mario Mendez</h2>
-            <p>Senior Architect ★★★★★</p>
+            <p class="title">Senior Architect ★★★★★</p>
             <button class="follow-btn">Follow</button>
-            <ul class="follower-info">
-                <li>Followers <span>320</span></li>
-                <li>Following <span>147</span></li>
-            </ul>
-            <ul class="performance-info">
-                <li>Performance: 56</li>
-                <li>Reviews: 42</li>
-            </ul>
-            <ul class="projects">
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
+            <div class="follower-section">
+                <div class="follower-info">
+                    <h3>320</h3>
+                    <p>Followers</p>
+                </div>
+                <div class="follower-info">
+                    <h3>147</h3>
+                    <p>Following</p>
+                </div>
+            </div>
+            <div class="performance-section">
+                <h4>Performance</h4>
+                <p>Rating: 56</p>
+                <p>Reviews: 42</p>
+            </div>
+            <div class="projects-section">
+                <h4>Projects</h4>
+                <ul class="projects-list">
+                    <li><img src="project1.jpg" alt="Project 1"></li>
+                    <li><img src="project2.jpg" alt="Project 2"></li>
+                    <li><img src="project3.jpg" alt="Project 3"></li>
+                </ul>
+            </div>
         </aside>
 
         <main class="main-content">
@@ -45,10 +56,19 @@
                     </ul>
                 </nav>
                 <div class="feed">
-                    <p>Update portofolio terbaru dari proyek #architecture.</p>
+                    <div class="post">
+                        <p>New portfolio update with my latest project #architecture.</p>
+                        <span>10 hours ago</span>
+                    </div>
+                    <div class="post">
+                        <p>Exploring urban designs in collaboration with other top architects.</p>
+                        <span>2 days ago</span>
+                    </div>
                 </div>
             </section>
         </main>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
