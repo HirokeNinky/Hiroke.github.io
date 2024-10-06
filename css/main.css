@@ -878,6 +878,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px){
+  footer { position: static; }
+  header { padding-top:40px; }
 }
 
 footer p {
@@ -890,8 +897,10 @@ footer p {
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
 }
+footer p {
+    display: inline-block;
+    vertical-align: top;
 }
-
 
 .footer-social-icons {
     width: 350px;
