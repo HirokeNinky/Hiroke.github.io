@@ -630,7 +630,7 @@ ul.list-default li {
 	font-weight: 400;
 }
 .person h5 {
-	color: #ff6500;
+	color: #FF6500;
 	font-size: 13px;
 	font-weight: 400;
 	margin-bottom: 20px;
@@ -645,7 +645,7 @@ ul.list-default li {
 }
 .social-icons a, .footer .footer-share a {
 	border: 1px solid #e7185c;
-	color: #e7185c;
+	color: #FF6500;
 	display: block;
 	font-size: 14px;
 	height: 32px;
@@ -655,8 +655,8 @@ ul.list-default li {
 	width: 32px;
 }
 .social-icons a:hover {
-	background-color: #e7185c;
-	border-color: #e7185c;
+	background-color: #FF6500;
+	border-color: #FF6500;
 	color: #fff;
 }
 /* ------------------------------------------------------------------------------
