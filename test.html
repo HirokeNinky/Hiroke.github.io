@@ -1,74 +1,95 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Profil Keren</title>
-    <link rel="stylesheet" href="css/stylesss.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="profile-page">
-        <aside class="sidebar">
-            <div class="profile-photo">
-                <img src="profile.jpg" alt="Profile Picture">
-            </div>
-            <h2>Mario Mendez</h2>
-            <p class="title">Senior Architect ★★★★★</p>
-            <button class="follow-btn">Follow</button>
-            <div class="follower-section">
-                <div class="follower-info">
-                    <h3>320</h3>
-                    <p>Followers</p>
-                </div>
-                <div class="follower-info">
-                    <h3>147</h3>
-                    <p>Following</p>
-                </div>
-            </div>
-            <div class="performance-section">
-                <h4>Performance</h4>
-                <p>Rating: 56</p>
-                <p>Reviews: 42</p>
-            </div>
-            <div class="projects-section">
-                <h4>Projects</h4>
-                <ul class="projects-list">
-                    <li><img src="project1.jpg" alt="Project 1"></li>
-                    <li><img src="project2.jpg" alt="Project 2"></li>
-                    <li><img src="project3.jpg" alt="Project 3"></li>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MyPortfolio</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
+            <div class="hero" id="home">
+                <h1>Hello, I'm <span>John Doe</span></h1>
+                <p>Freelance Web Developer & Designer</p>
+                <a href="#contact" class="btn">Hire Me</a>
             </div>
-        </aside>
+        </div>
+    </header>
 
-        <main class="main-content">
-            <section class="profile-header">
-                <img src="architecture.jpg" alt="Header Image">
-            </section>
-            <section class="profile-info">
-                <nav class="tabs">
-                    <ul>
-                        <li><a href="#">Info</a></li>
-                        <li><a href="#">Feed</a></li>
-                        <li><a href="#">Agenda</a></li>
-                        <li><a href="#">Resume</a></li>
-                    </ul>
-                </nav>
-                <div class="feed">
-                    <div class="post">
-                        <p>New portfolio update with my latest project #architecture.</p>
-                        <span>10 hours ago</span>
-                    </div>
-                    <div class="post">
-                        <p>Exploring urban designs in collaboration with other top architects.</p>
-                        <span>2 days ago</span>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a love for design and creativity. I have worked on various projects, ranging from simple websites to complex web applications. I specialize in creating stunning, responsive, and user-friendly websites that help businesses grow.</p>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Project 1</h3>
+                        <p>Web Design & Development</p>
                     </div>
                 </div>
-            </section>
-        </main>
-    </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Project 2</h3>
+                        <p>Mobile App Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Project 3</h3>
+                        <p>Branding & Identity</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project4.jpg" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Project 4</h3>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="js/script.js"></script>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's work together on your next project! Feel free to reach out to me.</p>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
