@@ -1,3 +1,46 @@
+// Loading Screen Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const loadingScreen = document.querySelector('.loading-screen');
+    const progressBar = document.querySelector('.loading-progress-bar');
+    const percentageText = document.querySelector('.loading-percentage');
+    const loadingText = document.querySelector('.loading-text');
+    let progress = 0;
+    let loadingInterval;
+
+    // Simulate loading progress
+    function updateProgress() {
+        if (progress < 100) {
+            // Increment progress with decreasing speed
+            const increment = Math.max(0.1, (100 - progress) / 20);
+            progress = Math.min(100, progress + increment);
+            
+            // Update progress bar and percentage
+            progressBar.style.width = `${progress}%`;
+            percentageText.textContent = `${Math.round(progress)}%`;
+            
+            // Add animation class to loading text when progress starts
+            if (progress > 0 && !loadingText.classList.contains('animate')) {
+                loadingText.classList.add('animate');
+            }
+        } else {
+            // Clear interval when progress reaches 100%
+            clearInterval(loadingInterval);
+            
+            // Hide loading screen with a slight delay
+            setTimeout(() => {
+                loadingScreen.classList.add('hidden');
+                // Remove loading screen from DOM after animation
+                setTimeout(() => {
+                    loadingScreen.remove();
+                }, 500);
+            }, 500);
+        }
+    }
+
+    // Start progress simulation
+    loadingInterval = setInterval(updateProgress, 50);
+});
+
 // Language Configuration
 const translations = {
     en: {
@@ -158,35 +201,6 @@ function updateLanguage(lang) {
         }
     });
 }
-
-// Loading Screen
-document.addEventListener('DOMContentLoaded', function() {
-    const loadingScreen = document.querySelector('.loading-screen');
-    const loadingProgress = document.querySelector('.loading-progress-bar');
-    const loadingPercentage = document.querySelector('.loading-percentage');
-    const statValues = document.querySelectorAll('.stat-value');
-    
-    // Simulate loading progress
-    let progress = 0;
-    const interval = setInterval(() => {
-        progress += Math.random() * 10;
-        if (progress >= 100) {
-            progress = 100;
-            clearInterval(interval);
-            setTimeout(() => {
-                loadingScreen.classList.add('hidden');
-            }, 300);
-        }
-        
-        loadingProgress.style.width = `${progress}%`;
-        loadingPercentage.textContent = `${Math.floor(progress)}%`;
-        
-        // Update stats
-        statValues.forEach(stat => {
-            stat.textContent = Math.floor(progress);
-        });
-    }, 50); // Reduced interval for smoother progress
-});
 
 // Dark Mode Toggle
 const themeToggle = document.querySelector('.theme-toggle');
