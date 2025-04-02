@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings - Hiroke Ninky</title>
+    <link rel="icon" type="image/png" href="image/logo-hiroke.png">
+    <link rel="apple-touch-icon" href="image/logo-hiroke.png">
+    <meta property="og:image" content="image/logo-hiroke.png">
+    <meta name="twitter:image" content="image/logo-hiroke.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="image/logo-hiroke.png" alt="Hiroke Logo" class="logo-image">
+                <span>Hiroke</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang="home">Home</a></li>
+                <li><a href="index.html#about" data-lang="about">About</a></li>
+                <li><a href="https://www.hiroke.xyz/strixdc/" data-lang="blog">Discord</a></li>
+                <li><a href="mailto:contact@hiroke.xyz" data-lang="contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="id">ID</button>
+                <button class="lang-btn" data-lang="ja">日本語</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="user-menu">
+                <button class="user-menu-btn">
+                    <i class="fas fa-user"></i>
+                    <span class="user-menu-text" data-lang="login">Login</span>
+                </button>
+                <div class="user-dropdown">
+                    <div class="user-info" style="display: none;">
+                        <div class="user-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="user-details">
+                            <span class="user-name">Guest</span>
+                            <span class="user-role">Guest</span>
+                        </div>
+                    </div>
+                    <div class="user-stats" style="display: none;">
+                        <div class="stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label" data-lang="posts">Posts</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label" data-lang="comments">Comments</span>
+                        </div>
+                    </div>
+                    <div class="user-actions">
+                        <a href="login.html" class="user-action-btn" data-lang="login">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span>Login</span>
+                        </a>
+                        <a href="register.html" class="user-action-btn" data-lang="register">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Register</span>
+                        </a>
+                        <a href="profile.html" class="user-action-btn" style="display: none;" data-lang="profile">
+                            <i class="fas fa-user-cog"></i>
+                            <span>Profile</span>
+                        </a>
+                        <button class="user-action-btn logout-btn" style="display: none;" data-lang="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span>Logout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="settings-main">
+        <section class="settings-container">
+            <div class="settings-sidebar">
+                <h2 data-lang="settings">Settings</h2>
+                <ul class="settings-menu">
+                    <li class="active" data-tab="profile">
+                        <i class="fas fa-user"></i>
+                        <span data-lang="profile">Profile</span>
+                    </li>
+                    <li data-tab="account">
+                        <i class="fas fa-cog"></i>
+                        <span data-lang="account">Account</span>
+                    </li>
+                    <li data-tab="privacy">
+                        <i class="fas fa-lock"></i>
+                        <span data-lang="privacy">Privacy</span>
+                    </li>
+                    <li data-tab="notifications">
+                        <i class="fas fa-bell"></i>
+                        <span data-lang="notifications">Notifications</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="settings-content">
+                <!-- Profile Settings -->
+                <div class="settings-section active" id="profileTab">
+                    <h3 data-lang="profile-settings">Profile Settings</h3>
+                    <form id="profileForm" class="settings-form">
+                        <div class="form-group">
+                            <label for="avatarColor" data-lang="avatar-color">Avatar Color</label>
+                            <input type="color" id="avatarColor" class="color-picker">
+                        </div>
+                        <div class="form-group">
+                            <label for="displayName" data-lang="display-name">Display Name</label>
+                            <input type="text" id="displayName" placeholder="Enter your display name">
+                        </div>
+                        <div class="form-group">
+                            <label for="bio" data-lang="bio">Bio</label>
+                            <textarea id="bio" placeholder="Tell us about yourself"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="location" data-lang="location">Location</label>
+                            <input type="text" id="location" placeholder="Enter your location">
+                        </div>
+                        <div class="form-group">
+                            <label for="website" data-lang="website">Website</label>
+                            <input type="url" id="website" placeholder="Enter your website URL">
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-lang="save-changes">Save Changes</button>
+                    </form>
+                </div>
+
+                <!-- Account Settings -->
+                <div class="settings-section" id="accountTab">
+                    <h3 data-lang="account-settings">Account Settings</h3>
+                    <form id="accountForm" class="settings-form">
+                        <div class="form-group">
+                            <label for="username" data-lang="username">Username</label>
+                            <input type="text" id="username" placeholder="Enter your username" disabled>
+                            <small data-lang="username-note">Username cannot be changed</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-lang="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="currentPassword" data-lang="current-password">Current Password</label>
+                            <input type="password" id="currentPassword" placeholder="Enter current password">
+                        </div>
+                        <div class="form-group">
+                            <label for="newPassword" data-lang="new-password">New Password</label>
+                            <input type="password" id="newPassword" placeholder="Enter new password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword" data-lang="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirmPassword" placeholder="Confirm new password">
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-lang="update-account">Update Account</button>
+                    </form>
+                </div>
+
+                <!-- Privacy Settings -->
+                <div class="settings-section" id="privacyTab">
+                    <h3 data-lang="privacy-settings">Privacy Settings</h3>
+                    <form id="privacyForm" class="settings-form">
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="showEmail" checked>
+                            <label for="showEmail" data-lang="show-email">Show email to other users</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="showLocation" checked>
+                            <label for="showLocation" data-lang="show-location">Show location in profile</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="showWebsite" checked>
+                            <label for="showWebsite" data-lang="show-website">Show website in profile</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="showActivity" checked>
+                            <label for="showActivity" data-lang="show-activity">Show activity status</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-lang="save-privacy">Save Privacy Settings</button>
+                    </form>
+                </div>
+
+                <!-- Notification Settings -->
+                <div class="settings-section" id="notificationsTab">
+                    <h3 data-lang="notification-settings">Notification Settings</h3>
+                    <form id="notificationsForm" class="settings-form">
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="emailNotifications" checked>
+                            <label for="emailNotifications" data-lang="email-notifications">Email Notifications</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="postNotifications" checked>
+                            <label for="postNotifications" data-lang="post-notifications">New Post Notifications</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="commentNotifications" checked>
+                            <label for="commentNotifications" data-lang="comment-notifications">Comment Notifications</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="likeNotifications" checked>
+                            <label for="likeNotifications" data-lang="like-notifications">Like Notifications</label>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="mentionNotifications" checked>
+                            <label for="mentionNotifications" data-lang="mention-notifications">Mention Notifications</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-lang="save-notifications">Save Notification Settings</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 data-lang="footer-about">About Me</h4>
+                <p data-lang="footer-about-desc">Hello my name Hiroke Ninky you call me Hiro/Ninky, I am a human reborn as a demon, because I broke my promise with the devil I ended up being half a demon and a human.</p>
+            </div>
+            <div class="footer-section">
+                <h4 data-lang="footer-quick-links">Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" data-lang="home">Home</a></li>
+                    <li><a href="index.html#about" data-lang="about">About</a></li>
+                    <li><a href="https://www.hiroke.xyz/strixdc/" data-lang="blog">Discord</a></li>
+                    <li><a href="mailto:contact@hiroke.xyz" data-lang="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 data-lang="footer-connect">Connect With Me</h4>
+                <div class="social-links">
+                    <a href="https://x.com/Hiroke_Ninky"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.hiroke.xyz/strixdc/"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.hiroke.xyz/patreon/"><i class="fab fa-patreon"></i></a>
+                    <a href="https://www.hiroke.xyz/ig/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Stars Trix Management. <span data-lang="all-rights">All rights reserved.</span></p>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="privacy-policy">Privacy Policy</a>
+                <a href="#" data-lang="terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="profile-settings.js"></script>
+</body>
+</html> 
