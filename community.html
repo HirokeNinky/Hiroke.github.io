@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - Hiroke Ninky</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="image/logo-hiroke.png" alt="Hiroke Logo" class="logo-image">
+                <span>Hiroke</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang="home">Home</a></li>
+                <li><a href="index.html#about" data-lang="about">About</a></li>
+                <li><a href="https://www.hiroke.xyz/strixdc/" data-lang="blog">Discord</a></li>
+                <li><a href="mailto:contact@hiroke.xyz" data-lang="contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="id">ID</button>
+                <button class="lang-btn" data-lang="ja">日本語</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="user-menu">
+                <button class="user-menu-btn">
+                    <i class="fas fa-user"></i>
+                    <span class="user-menu-text" data-lang="login">Login</span>
+                </button>
+                <div class="user-dropdown">
+                    <div class="user-info" style="display: none;">
+                        <div class="user-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="user-details">
+                            <span class="user-name">Guest</span>
+                            <span class="user-role">Guest</span>
+                        </div>
+                    </div>
+                    <div class="user-stats" style="display: none;">
+                        <div class="stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label" data-lang="posts">Posts</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">0</span>
+                            <span class="stat-label" data-lang="comments">Comments</span>
+                        </div>
+                    </div>
+                    <div class="user-actions">
+                        <a href="login.html" class="user-action-btn" data-lang="login">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span>Login</span>
+                        </a>
+                        <a href="register.html" class="user-action-btn" data-lang="register">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Register</span>
+                        </a>
+                        <a href="profile.html" class="user-action-btn" style="display: none;" data-lang="profile">
+                            <i class="fas fa-user-cog"></i>
+                            <span>Profile</span>
+                        </a>
+                        <button class="user-action-btn logout-btn" style="display: none;" data-lang="logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span>Logout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="community-main">
+        <section class="community-hero">
+            <div class="community-hero-content">
+                <h1>Community Hub</h1>
+                <p>Share your thoughts, connect with others, and be part of our growing community</p>
+            </div>
+        </section>
+
+        <section class="community-posts">
+            <div class="community-container">
+                <div class="post-form-container">
+                    <div class="post-form">
+                        <h3>Create a New Post</h3>
+                        <form id="postForm">
+                            <div class="form-group">
+                                <label for="postTitle">Title</label>
+                                <input type="text" id="postTitle" placeholder="Enter your post title" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="postContent">Content</label>
+                                <textarea id="postContent" placeholder="Share your thoughts..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Post</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="posts-container">
+                    <h2>Recent Posts</h2>
+                    <div class="posts-grid" id="postsGrid">
+                        <!-- Posts will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4 data-lang="footer-about">About Me</h4>
+                <p data-lang="footer-about-desc">Hello my name Hiroke Ninky you call me Hiro/Ninky, I am a human reborn as a demon, because I broke my promise with the devil I ended up being half a demon and a human.</p>
+            </div>
+            <div class="footer-section">
+                <h4 data-lang="footer-quick-links">Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" data-lang="home">Home</a></li>
+                    <li><a href="index.html#about" data-lang="about">About</a></li>
+                    <li><a href="https://www.hiroke.xyz/strixdc/" data-lang="blog">Discord</a></li>
+                    <li><a href="mailto:contact@hiroke.xyz" data-lang="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 data-lang="footer-connect">Connect With Me</h4>
+                <div class="social-links">
+                    <a href="https://x.com/Hiroke_Ninky"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.hiroke.xyz/strixdc/"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.hiroke.xyz/patreon/"><i class="fab fa-patreon"></i></a>
+                    <a href="https://www.hiroke.xyz/ig/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Stars Trix Management. <span data-lang="all-rights">All rights reserved.</span></p>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-lang="privacy-policy">Privacy Policy</a>
+                <a href="#" data-lang="terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="community.js"></script>
+</body>
+</html> 
