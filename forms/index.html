@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder - Hiroke Community</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="form-header">
+        <nav class="form-nav">
+            <div class="logo">
+                <img src="../images/logo-hiroke.png" alt="Hiroke Logo">
+                <span>Form Builder</span>
+            </div>
+            <div class="form-actions">
+                <button id="previewBtn" class="btn btn-outline">
+                    <i class="fas fa-eye"></i> Preview
+                </button>
+                <button id="sendBtn" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="form-main">
+        <div class="form-container">
+            <!-- Form Title and Description -->
+            <div class="form-title-section">
+                <input type="text" class="form-title" placeholder="Form Title">
+                <input type="text" class="form-description" placeholder="Form Description">
+            </div>
+
+            <!-- Question Types Toolbar -->
+            <div class="question-types">
+                <button class="type-btn" data-type="short-answer">
+                    <i class="fas fa-font"></i>
+                    <span>Short Answer</span>
+                </button>
+                <button class="type-btn" data-type="paragraph">
+                    <i class="fas fa-align-left"></i>
+                    <span>Paragraph</span>
+                </button>
+                <button class="type-btn" data-type="multiple-choice">
+                    <i class="fas fa-dot-circle"></i>
+                    <span>Multiple Choice</span>
+                </button>
+                <button class="type-btn" data-type="checkbox">
+                    <i class="fas fa-check-square"></i>
+                    <span>Checkbox</span>
+                </button>
+                <button class="type-btn" data-type="dropdown">
+                    <i class="fas fa-caret-down"></i>
+                    <span>Dropdown</span>
+                </button>
+                <button class="type-btn" data-type="file-upload">
+                    <i class="fas fa-file-upload"></i>
+                    <span>File Upload</span>
+                </button>
+                <button class="type-btn" data-type="date">
+                    <i class="fas fa-calendar"></i>
+                    <span>Date</span>
+                </button>
+                <button class="type-btn" data-type="time">
+                    <i class="fas fa-clock"></i>
+                    <span>Time</span>
+                </button>
+            </div>
+
+            <!-- Questions Container -->
+            <div id="questionsContainer" class="questions-container">
+                <!-- Questions will be added here dynamically -->
+            </div>
+
+            <!-- Add Question Button -->
+            <button id="addQuestionBtn" class="add-question-btn">
+                <i class="fas fa-plus"></i> Add Question
+            </button>
+        </div>
+    </main>
+
+    <!-- Form Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Form Preview</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Preview content will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/form-builder.js"></script>
+</body>
+</html> 
