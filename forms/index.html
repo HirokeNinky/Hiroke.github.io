@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder - Hiroke Community</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="form-header">
+        <nav class="form-nav">
+            <div class="logo">
+                <img src="../images/logo-hiroke.png" alt="Hiroke Logo">
+                <span>Form Builder</span>
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-outline" id="previewBtn">
+                    <i class="fas fa-eye"></i> Preview
+                </button>
+                <button class="btn btn-primary" id="sendBtn">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="form-main">
+        <div class="form-container">
+            <!-- Form Title Section -->
+            <div class="form-title-section">
+                <input type="text" class="form-title" placeholder="Untitled Form" value="Untitled Form">
+                <input type="text" class="form-description" placeholder="Form Description">
+            </div>
+
+            <!-- Form Builder -->
+            <div class="form-builder">
+                <!-- Question Types Toolbar -->
+                <div class="question-types">
+                    <button class="type-btn" data-type="short-answer">
+                        <i class="fas fa-align-left"></i> Short Answer
+                    </button>
+                    <button class="type-btn" data-type="paragraph">
+                        <i class="fas fa-paragraph"></i> Paragraph
+                    </button>
+                    <button class="type-btn" data-type="multiple-choice">
+                        <i class="fas fa-dot-circle"></i> Multiple Choice
+                    </button>
+                    <button class="type-btn" data-type="checkbox">
+                        <i class="fas fa-check-square"></i> Checkbox
+                    </button>
+                    <button class="type-btn" data-type="dropdown">
+                        <i class="fas fa-chevron-down"></i> Dropdown
+                    </button>
+                    <button class="type-btn" data-type="file-upload">
+                        <i class="fas fa-file-upload"></i> File Upload
+                    </button>
+                    <button class="type-btn" data-type="date">
+                        <i class="fas fa-calendar"></i> Date
+                    </button>
+                    <button class="type-btn" data-type="time">
+                        <i class="fas fa-clock"></i> Time
+                    </button>
+                </div>
+
+                <!-- Questions Container -->
+                <div class="questions-container" id="questionsContainer">
+                    <!-- Questions will be added here dynamically -->
+                </div>
+
+                <!-- Add Question Button -->
+                <button class="add-question-btn" id="addQuestionBtn">
+                    <i class="fas fa-plus"></i> Add Question
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="previewModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Form Preview</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Preview content will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/form-builder.js"></script>
+</body>
+</html> 
