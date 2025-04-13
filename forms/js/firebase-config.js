@@ -5,9 +5,9 @@ const firebaseConfig = {
     apiKey: "AIzaSyDqHJJCa4hbH_Tc9dvqriZ_p41180pKuxA",
     authDomain: "hiroke-d904d.firebaseapp.com",
     projectId: "hiroke-d904d",
-    storageBucket: "hiroke-d904d.firebasestorage.app",
+    storageBucket: "hiroke-d904d.appspot.com",
     messagingSenderId: "988494243990",
-    appId: "1:988494243990:web:cece57d16d851e8e6c7ab&"
+    appId: "1:988494243990:web:ec5aafe811ea8c686c7ab7"
 };
 
 // Initialize Firebase
