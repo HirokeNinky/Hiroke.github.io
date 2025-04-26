@@ -21,7 +21,7 @@ MineCuta
 ⭐Stars Trix Development™
 
 ## Contribution
-Join [Support Server](https://discord.gg/WkAjbEZZsw) to contribution
+Join [Support Server](https://hiroke.xyz/strixdc) to contribution
 
 ### License
-Website is Licensed under the [MIT License](https://github.com/HirokeNinky/HirokeNinky.github.io/blob/master/LICENSE)
+Website is Licensed under the [MIT License](https://github.com/HirokeNinky/Hiroke.github.io/blob/master/LICENSE)
