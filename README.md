@@ -24,13 +24,9 @@ MineCuta
 Join [Support Server](https://hiroke.xyz/strixdc) to contribution
 
 ##Nodes
-<iframe
-  src="https://lavalink-list.appujet.site/embed/node/hiroke.xyz"
-  width="300"
-  height="140"
-  frameborder="0"
-  style="border-radius: 8px; border: none; overflow: hidden;"
-></iframe>
+<a href="https://lavalink-list.appujet.site/nodes/hiroke.xyz" target="_blank" rel="noopener noreferrer">
+  <img src="https://lavalink-api.appujet.site/api/widget/hiroke.xyz.svg" alt="HirokeNodes Status" width="300" height="140" style="max-width: 100%; border-radius: 8px;">
+</a>
 
 ### License
 Website is Licensed under the [MIT License](https://github.com/HirokeNinky/Hiroke.github.io/blob/master/LICENSE)
