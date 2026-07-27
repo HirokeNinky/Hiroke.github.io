@@ -34,23 +34,41 @@
     <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=red" width="30%" />
 </p>
 
-## MY PROJECTS
+<p align="center">
+    <a href="https://github.com/HirokeNinky" target="_blank">
+        <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+    </a> 
+    <a href="https://instagram.com/@HirokeNinky" target="_blank">
+        <img alt="Instagram" src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" />
+    </a>
+    <a href="https://facebook.com/HirokeNinky" target="_blank">
+        <img alt="Facebook" src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=white" />
+    </a>
+    <a href="https://tiktok.com/@hiroke.ninky" target="_blank">
+        <img alt="Tiktok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
+    </a>
+    <a href="https://youtube.com/@hiroke_ninky" target="_blank">
+        <img alt="Youtube" src="https://img.shields.io/youtube/channel/subscribers/UCcPSKwUtyM7rMkzW3mrsShA?style=for-the-badge&logo=youtube&logoColor=white" />
+    </a>
+</p>
 
-<a href="https://github.com/HirokeNinky">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=HirokeNinky&repo=Hiroke.github.io&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula"/>
-</a>
-<a href="https://github.com/HirokeNinky">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=MineCuta1107&repo=Nishimiya&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula"/>
-</a>
+# <img src="https://hiroke.starstrix.my.id/assets/strix/sk-logo.gif" width="50"> Tools and use
 
-## ARCHIVED
+![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-<a href="https://github.com/HirokeNinky">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=HirokeNinky&repo=VerionBot&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula"/>
-</a>
-<a href="https://github.com/HirokeNinky">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=HirokeNinky&repo=HirokeNinky&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula"/>
-</a>
+![](https://visitor-badge.laobi.icu/badge?page_id=HirokeNinky.HirokeNinky)
 
 ## TEAMS
 
