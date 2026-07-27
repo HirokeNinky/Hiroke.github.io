@@ -25,7 +25,7 @@
   </a>
 </p>
 
-## MY STATS
+## GitHub Stats
 
 <p align="center">
   <a href="https://github.com/HirokeNinky/">
