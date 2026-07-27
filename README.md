@@ -28,49 +28,16 @@
 ## 📜 Lore
 
 ```yaml
-name: Hiroke Ninky
-race: Half-Demon
-alignment: Chaotic Good (Debug Mode)
-class: Full-Stack Developer / VTuber
-origin: Kota Serang, Banten — student at an open university
-status: >
-  By day, a sealed and ordinary developer chasing null pointer
-  exceptions. By night, the crimson glass shatters — an unleashed
-  half-demon shipping production-grade roleplay systems for the
-  Indonesian FiveM community.
+❤ I'm very interested on Discord bot developing, Website & fivem server.
+- 👋 Hi, I’m Hiroke Ninky
+- 🔭 I am a student at an open university in Serang City, Banten Province.
+- 🌱 I’m currently learning Lua, and some Javascript.
+- 👀 I’m interested in ... IDK
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
 ```
 
 <br>
-
-## 🎭 Sealed × Unleashed
-
-<table align="center">
-<tr>
-<td align="center" width="50%" valign="top">
-
-### 🔒 SEALED
-*Wujud tersegel — tampak biasa*
-
-```
-Form      : Human-passing
-Role      : Mahasiswa, Serang · Banten
-Weakness  : Merge conflict, ping tinggi
-```
-
-</td>
-<td align="center" width="50%" valign="top">
-
-### 🩸 UNLEASHED
-*Wujud asli — segel terbuka*
-
-```
-Form      : Half-Demon
-Behavior  : Chaotic, menulis Lua jam 3 pagi
-```
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 <sub>Dua wujud, satu jiwa — segel hanya terbuka saat editor dibuka.</sub>
