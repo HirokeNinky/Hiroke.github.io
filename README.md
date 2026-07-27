@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://hiroke.starstrix.my.id/">
-  <img src="https://hiroke.starstrix.my.id/assets/hiroke/hiroke.png" alt="Hiroke Ninky Banner" width="100%">
+  <img src="https://hiroke.starstrix.my.id/assets/hiroke/hiroke.png" alt="Hiroke Ninky Banner" width="55%">
 </a>
 
 <br>
