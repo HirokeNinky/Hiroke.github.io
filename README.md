@@ -32,7 +32,6 @@ name: Hiroke Ninky
 race: Half-Demon
 alignment: Chaotic Good (Debug Mode)
 class: Full-Stack Developer / VTuber
-current_quest: "Hope Indonesia IME Roleplay" — a QBX Core FiveM server
 origin: Kota Serang, Banten — student at an open university
 status: >
   By day, a sealed and ordinary developer chasing null pointer
@@ -44,10 +43,6 @@ status: >
 <br>
 
 ## ⚔️ Apa yang saya kerjakan
-
-- 🎮 Membangun & mengembangkan **Hope Indonesia IME Roleplay**, server FiveM berbasis **QBX Core**
-- 🖥️ Full-stack di dunia FiveM: **Lua** (client/server), **HTML/CSS/JS** untuk NUI, **React + TypeScript** untuk UI terkompilasi, dan **MySQL (oxmysql)**
-- 🧩 Merancang resource server-authoritative: anti-cheat, anti-dupe, sistem HUD, inventory, admin tools, hingga sistem kepolisian penuh
 - 🎨 Menciptakan identitas desain sendiri — **Oni-Tech Crimson Glass**: glassmorphism gelap merah-emas dengan sentuhan cyberpunk
 - 🎥 Tampil sebagai VTuber/streamer dengan persona half-demon di YouTube & TikTok
 - 💼 Menerima proyek freelance seputar Discord bot, website, dan sistem FiveM
