@@ -32,6 +32,7 @@ name: Hiroke Ninky
 race: Half-Demon
 alignment: Chaotic Good (Debug Mode)
 class: Full-Stack Developer / VTuber
+current_quest: "Hope Indonesia IME Roleplay" — a QBX Core FiveM server
 origin: Kota Serang, Banten — student at an open university
 status: >
   By day, a sealed and ordinary developer chasing null pointer
@@ -42,29 +43,90 @@ status: >
 
 <br>
 
-## ⚔️ Apa yang saya kerjakan
-- 🎨 Menciptakan identitas desain sendiri — **Oni-Tech Crimson Glass**: glassmorphism gelap merah-emas dengan sentuhan cyberpunk
-- 🎥 Tampil sebagai VTuber/streamer dengan persona half-demon di YouTube & TikTok
-- 💼 Menerima proyek freelance seputar Discord bot, website, dan sistem FiveM
+## 🎭 Sealed × Unleashed
+
+<table align="center">
+<tr>
+<td align="center" width="50%" valign="top">
+
+### 🔒 SEALED
+*Wujud tersegel — tampak biasa*
+
+```
+Form      : Human-passing
+Role      : Mahasiswa, Serang · Banten
+Behavior  : Tenang, sabar menunggu build selesai
+Weakness  : Merge conflict, ping tinggi
+```
+
+</td>
+<td align="center" width="50%" valign="top">
+
+### 🩸 UNLEASHED
+*Wujud asli — segel terbuka*
+
+```
+Form      : Half-Demon
+Role      : Architect of Hope Indonesia IME RP
+Behavior  : Chaotic, menulis Lua jam 3 pagi
+Power     : Server-authoritative everything
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub>Dua wujud, satu jiwa — segel hanya terbuka saat editor dibuka.</sub>
+</div>
 
 <br>
 
-## 🔥 Tech Arsenal
+## 📊 Character Sheet
 
 <div align="center">
 
-![](https://skillicons.dev/icons?i=lua,js,,nodejs,html,css,mysql,mongodb,express,discordjs,vscode)
+| Stat | Level |
+|:--|:--|
+| 🩸 **Coding & Debugging** | ████████████████████ 100% |
+| 🎨 **Design Sense (Oni-Tech Crimson Glass)** | ███████████████████░ 95% |
+| 🎥 **VTuber / On-Camera Chaos** | █████████████████░░░ 85% |
+| ☕ **Sleep Schedule** | ███░░░░░░░░░░░░░░░░░ 15% |
+| 🔥 **Passion for FiveM Roleplay** | ████████████████████ ∞ |
 
 </div>
+
+<br>
+
+## 🗡️ Weapons of Choice
+
+<div align="center">
+
+![](https://skillicons.dev/icons?i=lua,js,ts,react,nodejs,html,css,mysql,mongodb,express,discordjs,git,vscode,figma,bootstrap)
+
+<br><br>
+
+`qbx_core` · `ox_lib` · `ox_target` · `ox_inventory` · `oxmysql`
+<br>
+*— tools sehari-hari untuk menghidupkan Hope Indonesia IME Roleplay*
+
+</div>
+
+<br>
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=HirokeNinky&theme=highcontrast&background=0D0D0D&stroke=B3121C&ring=B3121C&fire=B3121C&currStreakLabel=B3121C" width="60%" />
+  <img src="https://ghstats.onuralpsezer.com?user=HirokeNinky&theme=red" width="49%" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HirokeNinky&theme=github_dark" width="49%">
 </p>
 
 <p align="center">
   <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=onedark" width="60%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=HirokeNinky&theme=highcontrast&background=0D0D0D&stroke=B3121C&ring=B3121C&fire=B3121C&currStreakLabel=B3121C" width="60%" />
 </p>
 
 <br>
