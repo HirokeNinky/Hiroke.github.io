@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">Hi, I'm <a href="https://hiroke.starstrix.my.id/">Hiroke Ninky</a>!</h1>
 <h3 align="center">Welcome to my GitHub profile </h3>
-<p align="center">❤ I'm very interested on Discord bot developing & fivem server.</p>
+<p align="center">❤ I'm very interested on Discord bot developing, Website & fivem server.</p>
 
 - 👋 Hi, I’m Hiroke Ninky
 - 🔭 I’m a student of a university in Serang, Province Banten.
