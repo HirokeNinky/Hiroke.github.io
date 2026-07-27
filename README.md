@@ -43,30 +43,26 @@
   </a>
 </p>
 
-## GitHub Stats
-
-<p float="left">
-    <img src="https://ghstats.onuralpsezer.com?user=HirokeNinky&theme=red" width="60%" />
-    <!-- <img src="https://github-profile-trophy.vercel.app/?username=nurrifqialhusaini&row=2&column=3&theme=onedark#1&margin-w=15&margin-h=15" width="50%"> -->
-    <!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nurrifqialhusaini&theme=github_dark" width="50%"> -->
-    <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=red" width="30%" />
-</p>
-
 ![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
-![](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ![](https://visitor-badge.laobi.icu/badge?page_id=HirokeNinky.HirokeNinky)
+
+## GitHub Stats
+
+<p float="left">
+    <img src="https://ghstats.onuralpsezer.com?user=HirokeNinky&theme=red" width="60%" />
+    <!-- <img src="https://github-profile-trophy.vercel.app/?username=nurrifqialhusaini&row=2&column=3&theme=onedark#1&margin-w=15&margin-h=15" width="50%"> -->
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HirokeNinky&theme=github_dark" width="50%">
+    <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=onedark" width="30%" />
+</p>
 
 ## TEAMS
 ⭐Stars Trix™
