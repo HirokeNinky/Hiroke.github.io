@@ -77,7 +77,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=onedark" width="60%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HirokeNinky&theme=react-dark&hide_border=true&color=B3121C&line=B3121C&point=FFFFFF&area=true&area_color=B3121C" width="90%" />
 </p>
 
 <br>
