@@ -68,18 +68,16 @@
 ![](https://skillicons.dev/icons?i=lua,js,nodejs,html,css,mysql,mongodb,express,discordjs,vscode)
 
 ## 📊 GitHub Stats
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=HirokeNinky&theme=highcontrast&background=0D0D0D&stroke=B3121C&ring=B3121C&fire=B3121C&currStreakLabel=B3121C" width="60%" />
+</p>
 
 <p align="center">
-  <img src="https://ghstats.onuralpsezer.com?user=HirokeNinky&theme=red" width="49%" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HirokeNinky&theme=github_dark" width="49%">
 </p>
 
 <p align="center">
   <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=onedark" width="60%" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=HirokeNinky&theme=highcontrast&background=0D0D0D&stroke=B3121C&ring=B3121C&fire=B3121C&currStreakLabel=B3121C" width="60%" />
 </p>
 
 <br>
