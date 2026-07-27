@@ -32,7 +32,6 @@ name: Hiroke Ninky
 race: Half-Demon
 alignment: Chaotic Good (Debug Mode)
 class: Full-Stack Developer / VTuber
-current_quest: "Hope Indonesia IME Roleplay" — a QBX Core FiveM server
 origin: Kota Serang, Banten — student at an open university
 status: >
   By day, a sealed and ordinary developer chasing null pointer
@@ -55,7 +54,6 @@ status: >
 ```
 Form      : Human-passing
 Role      : Mahasiswa, Serang · Banten
-Behavior  : Tenang, sabar menunggu build selesai
 Weakness  : Merge conflict, ping tinggi
 ```
 
@@ -67,9 +65,7 @@ Weakness  : Merge conflict, ping tinggi
 
 ```
 Form      : Half-Demon
-Role      : Architect of Hope Indonesia IME RP
 Behavior  : Chaotic, menulis Lua jam 3 pagi
-Power     : Server-authoritative everything
 ```
 
 </td>
@@ -102,17 +98,7 @@ Power     : Server-authoritative everything
 
 <div align="center">
 
-![](https://skillicons.dev/icons?i=lua,js,ts,react,nodejs,html,css,mysql,mongodb,express,discordjs,git,vscode,figma,bootstrap)
-
-<br><br>
-
-`qbx_core` · `ox_lib` · `ox_target` · `ox_inventory` · `oxmysql`
-<br>
-*— tools sehari-hari untuk menghidupkan Hope Indonesia IME Roleplay*
-
-</div>
-
-<br>
+![](https://skillicons.dev/icons?i=lua,js,nodejs,html,css,mysql,mongodb,express,discordjs,vscode)
 
 ## 📊 GitHub Stats
 
