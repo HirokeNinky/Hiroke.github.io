@@ -27,16 +27,11 @@
 
 ## GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/HirokeNinky/">
-   <img align="center" height="140px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HirokeNinky&layout=compact&title_color=8B64FF&theme=dracula" alt="Hiroke's GitHub stats"/>
-   </a>
-   <a href="https://github.com/HirokeNinky/">
-   <img align="center" height="140px" src="https://github-readme-stats.vercel.app/api?username=HirokeNinky&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula" alt="Hiroke's GitHub stats" />
-   </a>
-   <a href="https://github.com/HirokeNinky/">
-   <img align="center" height="140px" src="https://github-readme-stats.vercel.app/api/wakatime?username=HirokeNinky&hide=issues&count_private=true&show_icons=true&title_color=8B64FF&icon_color=8B64FF&theme=dracula" alt="Hiroke's GitHub stats" />
-   </a>
+<p float="left">
+    <img src="https://ghstats.onuralpsezer.com?user=HirokeNinky&theme=red" width="60%" />
+    <!-- <img src="https://github-profile-trophy.vercel.app/?username=nurrifqialhusaini&row=2&column=3&theme=onedark#1&margin-w=15&margin-h=15" width="50%"> -->
+    <!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nurrifqialhusaini&theme=github_dark" width="50%"> -->
+    <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=dracula" width="30%" />
 </p>
 
 ## MY PROJECTS
