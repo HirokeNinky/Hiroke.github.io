@@ -63,33 +63,6 @@ status: >
 <tr>
 <td valign="top" width="50%">
 
-### 🩸 Core Framework
-```
-qbx_core      →  base framework
-ox_lib        →  library & utilities
-ox_target     →  targeting system
-ox_inventory  →  inventory system
-oxmysql       →  database layer
-```
-
-</td>
-<td valign="top" width="50%">
-
-### 🖤 Design Language
-```
-Palette   →  Crimson (#B3121C) × Gold
-Style     →  Glassmorphism
-Fonts     →  Orbitron / Rajdhani
-Vibe      →  Cyberpunk × Oni Mask
-Name      →  Oni-Tech Crimson Glass
-```
-
-</td>
-</tr>
-</table>
-
-<br>
-
 ## 📊 GitHub Stats
 
 <p align="center">
