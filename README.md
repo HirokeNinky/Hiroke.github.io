@@ -4,6 +4,25 @@
   </a>
 </p>
 <h1 align="center">Hi, I'm <a href="https://hiroke.starstrix.my.id/">Hiroke Ninky</a>!</h1>
+<p align="center">
+    <a href="https://github.com/HirokeNinky" target="_blank">
+        <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
+    </a> 
+    <a href="https://instagram.com/@HirokeNinky" target="_blank">
+        <img alt="Instagram" src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" />
+    </a>
+    <a href="https://facebook.com/HirokeNinky" target="_blank">
+        <img alt="Facebook" src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=white" />
+    </a>
+    <a href="https://tiktok.com/@hiroke.ninky" target="_blank">
+        <img alt="Tiktok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
+    </a>
+    <a href="https://youtube.com/@hiroke_ninky" target="_blank">
+        <img alt="Youtube" src="https://img.shields.io/youtube/channel/subscribers/UCcPSKwUtyM7rMkzW3mrsShA?style=for-the-badge&logo=youtube&logoColor=white" />
+    </a>
+</p>
+
+# <img src="https://hiroke.starstrix.my.id/assets/strix/sk-logo.gif" width="50"> Tools and use
 <h3 align="center">Welcome to my GitHub profile </h3>
 <p align="center">❤ I'm very interested on Discord bot developing, Website & fivem server.</p>
 
@@ -33,26 +52,6 @@
     <!-- <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nurrifqialhusaini&theme=github_dark" width="50%"> -->
     <img src="https://github-contribution-stats.vercel.app/api/?username=HirokeNinky&theme=red" width="30%" />
 </p>
-
-<p align="center">
-    <a href="https://github.com/HirokeNinky" target="_blank">
-        <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
-    </a> 
-    <a href="https://instagram.com/@HirokeNinky" target="_blank">
-        <img alt="Instagram" src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" />
-    </a>
-    <a href="https://facebook.com/HirokeNinky" target="_blank">
-        <img alt="Facebook" src="https://img.shields.io/badge/Facebook-000000?style=for-the-badge&logo=facebook&logoColor=white" />
-    </a>
-    <a href="https://tiktok.com/@hiroke.ninky" target="_blank">
-        <img alt="Tiktok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
-    </a>
-    <a href="https://youtube.com/@hiroke_ninky" target="_blank">
-        <img alt="Youtube" src="https://img.shields.io/youtube/channel/subscribers/UCcPSKwUtyM7rMkzW3mrsShA?style=for-the-badge&logo=youtube&logoColor=white" />
-    </a>
-</p>
-
-# <img src="https://hiroke.starstrix.my.id/assets/strix/sk-logo.gif" width="50"> Tools and use
 
 ![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
