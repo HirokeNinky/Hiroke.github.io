@@ -18,7 +18,7 @@
         <img alt="Tiktok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
     </a>
     <a href="https://youtube.com/@hiroke_ninky" target="_blank">
-        <img alt="Youtube" src="https://img.shields.io/youtube/channel/subscribers/UCcPSKwUtyM7rMkzW3mrsShA?style=for-the-badge&logo=youtube&logoColor=white" />
+        <img alt="Youtube" src="https://img.shields.io/youtube/channel/subscribers/hiroke_ninky?style=for-the-badge&logo=youtube&logoColor=white" />
     </a>
 </p>
 
