@@ -57,12 +57,6 @@ status: >
 
 </div>
 
-<br>
-
-<table align="center">
-<tr>
-<td valign="top" width="50%">
-
 ## 📊 GitHub Stats
 
 <p align="center">
