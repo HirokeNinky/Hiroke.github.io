@@ -27,10 +27,9 @@
 <p align="center">❤ I'm very interested on Discord bot developing, Website & fivem server.</p>
 
 - 👋 Hi, I’m Hiroke Ninky
-- 🔭 I’m a student of a university in Serang, Province Banten.
+- 🔭 I am a student at an open university in Serang City, Banten Province.
 - 🌱 I’m currently learning Lua, and some Javascript.
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- 👀 I’m interested in ... IDK
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
@@ -70,11 +69,7 @@
 ![](https://visitor-badge.laobi.icu/badge?page_id=HirokeNinky.HirokeNinky)
 
 ## TEAMS
-
 ⭐Stars Trix™
-Mine Cuta
-Hiroke Ninky
-Cerry
 
 ## LICENSE
 Website is Licensed under the [MIT License](https://github.com/HirokeNinky/HirokeNinky/blob/main/LICENSE)
